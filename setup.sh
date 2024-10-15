@@ -16,8 +16,3 @@ make -j build-zoo
 make install-zoo
 make -j build-zoo-std
 make install-zoo-std
-
-cd ocaml2zoo
-make depend
-make
-make install
