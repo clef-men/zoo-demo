@@ -1,7 +1,6 @@
 Makefile.coq
 Makefile.coq.conf
 _opam
-zoo/
 
 # Vim
 [._]*.s[a-v][a-z]
