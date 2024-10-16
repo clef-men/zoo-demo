@@ -22,7 +22,7 @@ Notation "'Nil'" := (
 )(in custom zoo_tag
 ).
 Notation "'Cons'" := (
-  in_type "t2" 1
+  in_type "t1" 1
 )(in custom zoo_tag
 ).
 
@@ -49,11 +49,11 @@ Definition example3 : val :=
     "t".<fst> + "t".<snd>.
 
 Notation "'f1'" := (
-  in_type "t2" 0
+  in_type "t3" 0
 )(in custom zoo_field
 ).
 Notation "'f2'" := (
-  in_type "t2" 1
+  in_type "t3" 1
 )(in custom zoo_field
 ).
 
