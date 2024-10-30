@@ -5,4 +5,5 @@
 
 -Q theories zoo_demo
 
-theories/example.v
+theories/zoo_demo/example__types.v
+theories/zoo_demo/example__code.v

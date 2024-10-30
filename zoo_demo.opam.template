@@ -1,0 +1,4 @@
+pin-depends: [
+  ["zoo.dev" "git+https://github.com/clef-men/zoo.git#main"]
+  ["zoo_std.dev" "git+https://github.com/clef-men/zoo.git#main"]
+]

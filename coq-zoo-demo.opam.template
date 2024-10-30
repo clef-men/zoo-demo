@@ -1,0 +1,14 @@
+pin-depends: [
+  ["coq-zoo.dev" "git+https://github.com/clef-men/zoo.git#main"]
+  ["coq-zoo-std.dev" "git+https://github.com/clef-men/zoo.git#main"]
+]
+depends: [
+  "coq-zoo-std"
+]
+
+build: [
+  make "-j%{jobs}%"
+]
+install: [
+  make "install"
+]
