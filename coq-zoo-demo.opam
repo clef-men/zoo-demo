@@ -10,9 +10,9 @@ authors: [
   "Clément Allain"
 ]
 homepage:
-  "https://github.com/clef-men/zoo_demo"
+  "https://github.com/clef-men/zoo-demo"
 bug-reports:
-  "https://github.com/clef-men/zoo_demo/issues"
+  "https://github.com/clef-men/zoo-demo/issues"
 
 pin-depends: [
   ["coq-zoo.dev" "git+https://github.com/clef-men/zoo.git#main"]
