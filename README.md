@@ -30,13 +30,13 @@ opam pin add ocaml2zoo git+https://github.com/clef-men/ocaml2zoo#main --yes
 opam install . --deps-only --yes
 ```
 
-To compile OCaml libraries (see `lib/`), run:
+To compile OCaml libraries (see [`lib/`](lib/)), run:
 
 ```
 make lib
 ```
 
-To translate OCaml libraries into [Zoo](https://github.com/clef-men/zoo) (Coq files are generated in `theories/`), run:
+To translate OCaml libraries into [Zoo](https://github.com/clef-men/zoo) (Coq files are generated in [`theories/`](theories/)), run:
 
 ```
 make ocaml2zoo
