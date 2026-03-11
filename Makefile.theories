@@ -1,10 +1,10 @@
-Makefile.coq : _CoqProject
+Makefile.rocq : _RocqProject
 	@ coq_makefile -f $< -o $@
 
-ifeq (,$(filter $(targets_nocoq),$(MAKECMDGOALS)))
--include Makefile.coq
+ifeq (,$(filter $(targets_norocq),$(MAKECMDGOALS)))
+-include Makefile.rocq
 endif
 
 .PHONY : clean
 clean ::
-	@ rm -f Makefile.coq Makefile.coq.conf
+	@ rm -f Makefile.rocq Makefile.rocq.conf

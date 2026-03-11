@@ -24,7 +24,7 @@
 )
 
 (package
-  (name coq-zoo-demo)
+  (name rocq-zoo-demo)
   (synopsis "Zoo demo")
   (allow_empty)
 )

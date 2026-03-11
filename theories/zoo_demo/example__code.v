@@ -12,7 +12,7 @@ Definition example_example1 : val :=
   rec: "example1" "param" =>
     match: "param" with
     | [] =>
-        #0
+        0
     | "x" :: "l" =>
         "x" + "example1" "l"
     end.
@@ -21,7 +21,7 @@ Definition example_example2 : val :=
   rec: "example2" "param" =>
     match: "param" with
     | Nil =>
-        #0
+        0
     | Cons "x" "l" =>
         "x" + "example2" "l"
     end.

@@ -1,9 +1,9 @@
-targets_nocoq += lib
+targets_norocq += lib
 .PHONY : lib
 lib :
 	@ dune build @check @all
 
-targets_nocoq += ocaml2zoo
+targets_norocq += ocaml2zoo
 .PHONY : ocaml2zoo
 ocaml2zoo :
 	@ ocaml2zoo . theories

@@ -8,11 +8,11 @@ homepage: "https://github.com/clef-men/zoo-demo"
 bug-reports: "https://github.com/clef-men/zoo-demo/issues"
 dev-repo: "git+https://github.com/clef-men/zoo-demo.git"
 pin-depends: [
-  ["coq-zoo.dev" "git+https://github.com/clef-men/zoo.git#main"]
-  ["coq-zoo-std.dev" "git+https://github.com/clef-men/zoo.git#main"]
+  ["rocq-zoo.dev" "git+https://github.com/clef-men/zoo.git#main"]
+  ["rocq-zoo-std.dev" "git+https://github.com/clef-men/zoo.git#main"]
 ]
 depends: [
-  "coq-zoo-std"
+  "rocq-zoo-std"
 ]
 
 build: [

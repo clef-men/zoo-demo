@@ -36,13 +36,13 @@ To compile OCaml libraries (see [`lib/`](lib/)), run:
 make lib
 ```
 
-To translate OCaml libraries into [Zoo](https://github.com/clef-men/zoo) (Coq files are generated in [`theories/`](theories/)), run:
+To translate OCaml libraries into [Zoo](https://github.com/clef-men/zoo) (Rocq files are generated in [`theories/`](theories/)), run:
 
 ```
 make ocaml2zoo
 ```
 
-Finally, to compile Coq proofs, run:
+Finally, to compile Rocq proofs, run:
 
 ```
 make
