@@ -3,7 +3,7 @@
 -arg -w -arg -masking-absolute-name
 -arg -w -arg -notation-incompatible-prefix
 
--Q theories zoo_demo
+-Q theories/zoo_demo zoo_demo
 
 theories/zoo_demo/example__types.v
 theories/zoo_demo/example__code.v

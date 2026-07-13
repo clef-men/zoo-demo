@@ -1,14 +1,10 @@
-From zoo Require Import
-  prelude.
-From zoo.language Require Import
-  typeclasses
-  notations.
-From zoo_demo Require Import
-  example__types.
-From zoo Require Import
-  options.
+Require Import zoo.prelude.
+Require Import zoo.language.typeclasses.
+Require Import zoo.language.notations.
+Require Import zoo_demo.example__types.
+Require Import zoo.options.
 
-Definition example_example1 : val :=
+Definition example٠example1 : val :=
   rec: "example1" "param" =>
     match: "param" with
     | [] =>
@@ -17,7 +13,7 @@ Definition example_example1 : val :=
         "x" + "example1" "l"
     end.
 
-Definition example_example2 : val :=
+Definition example٠example2 : val :=
   rec: "example2" "param" =>
     match: "param" with
     | Nil =>
@@ -26,10 +22,10 @@ Definition example_example2 : val :=
         "x" + "example2" "l"
     end.
 
-Definition example_example3 : val :=
+Definition example٠example3 : val :=
   fun: "t" =>
     "t".<fst> + "t".<snd>.
 
-Definition example_example4 : val :=
+Definition example٠example4 : val :=
   fun: "t" =>
     "t" <-{f1} "t".{f1} + "t".{f2}.
