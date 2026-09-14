@@ -15,11 +15,11 @@
 (license ISC)
 
 (package
-  (name zoo_demo)
+  (name zoo-demo)
   (synopsis "Zoo demo")
   (depends
     zoo
-    zoo_std
+    zoo-std
   )
 )
 

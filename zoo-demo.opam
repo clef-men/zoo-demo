@@ -9,7 +9,7 @@ bug-reports: "https://github.com/clef-men/zoo-demo/issues"
 depends: [
   "dune" {>= "3.0"}
   "zoo"
-  "zoo_std"
+  "zoo-std"
   "odoc" {with-doc}
 ]
 build: [
@@ -29,5 +29,5 @@ build: [
 dev-repo: "git+https://github.com/clef-men/zoo-demo.git"
 pin-depends: [
   ["zoo.dev" "git+https://github.com/clef-men/zoo.git#main"]
-  ["zoo_std.dev" "git+https://github.com/clef-men/zoo.git#main"]
+  ["zoo-std.dev" "git+https://github.com/clef-men/zoo.git#main"]
 ]
