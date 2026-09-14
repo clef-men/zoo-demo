@@ -1,9 +1,9 @@
 (library
-  (name zoo_demo)
-  (public_name zoo-demo)
-  (libraries
-    zoo
-    zoo-std
-  )
-  (flags (:standard -open Zoo_std))
+ (name zoo_demo)
+ (public_name zoo-demo)
+ (libraries
+  zoo
+  zoo-std
+ )
+ (flags (:standard -open Zoo_std))
 )
