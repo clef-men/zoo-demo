@@ -1,0 +1,23 @@
+(env
+ (_
+  (rocq
+   (flags
+    (:standard
+     -w +default
+     -w -uniform-inheritance
+     -w -redundant-canonical-projection
+     -w -masking-absolute-name
+     -w -notation-incompatible-prefix
+    )
+   )
+   (rocqdoc_flags
+    (:standard
+     --gallina
+     --no-lib-name
+     --external https://plv.mpi-sws.org/rocqdoc/stdpp/ stdpp
+     --external https://plv.mpi-sws.org/rocqdoc/iris/ iris
+    )
+   )
+  )
+ )
+)

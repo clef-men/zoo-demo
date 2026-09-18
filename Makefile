@@ -1,14 +1,26 @@
-targets_norocq :=
-
 .PHONY : all
-all :
+all : theories
 
-.PHONY : phony
-phony :
+.PHONY : theories
+theories :
+	@ dune build theories --display=short
+
+.PHONY : lib
+lib :
+	@ dune build @lib/check @lib/all
+
+.PHONY : ocaml2zoo
+ocaml2zoo :
+	@ ocaml2zoo . theories
+
+.PHONY : install
+install :
+	@ dune install
+
+.PHONY : doc
+doc :
+	@ dune build @theories/doc
 
 .PHONY : clean
-clean ::
-
-include Makefile.lib
-
-include Makefile.theories
+clean :
+	@ dune clean

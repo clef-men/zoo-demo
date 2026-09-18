@@ -1,4 +1,6 @@
-(lang dune 3.0)
+(lang dune 3.21)
+
+(using rocq 0.11)
 
 (name zoo-demo)
 
@@ -25,6 +27,8 @@
 
 (package
  (name rocq-zoo-demo)
- (synopsis "Zoo demo")
- (allow_empty)
+ (synopsis "zoo-demo verification")
+ (depends
+  rocq-zoo-std
+ )
 )
