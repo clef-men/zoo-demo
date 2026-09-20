@@ -5,6 +5,13 @@
  (package rocq-zoo-demo)
  (generate_project_file)
  (theories
-  zoo-std
+  Stdlib
+  Ltac2
+  stdpp
+  please
+  iris
+  diaframe
+  zoo
+  zoo_std
  )
 )
